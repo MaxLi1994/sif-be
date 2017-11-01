@@ -1,0 +1,32 @@
+{
+  "name": "sif-be",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Max Li <liyue4158@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/compression": "0.0.34",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.0.39",
+    "@types/express-session": "^1.15.5",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "intelli-espower-loader": "^1.0.1",
+    "merge2": "^1.2.0",
+    "mocha": "^4.0.1",
+    "power-assert": "^1.4.4",
+    "typescript": "^2.6.1"
+  }
+}
